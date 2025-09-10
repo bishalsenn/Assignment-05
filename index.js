@@ -100,7 +100,7 @@ callButtons.forEach(function (btn) {
   };
 });
 
-// Clear cart button
+// Clear cart buttonss
 getElement("btn-clear").addEventListener("click", function () {
   getElement("cart-container").innerHTML = "";
 });
