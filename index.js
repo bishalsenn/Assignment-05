@@ -92,7 +92,7 @@ callButtons.forEach(function (btn) {
   <span class="text-xs text-gray-500">${time}</span>
 `;
 
-      // add to history
+      // add to history and buttons
       historyBox.appendChild(item);
     } else {
       alert("Not enough coins!");
